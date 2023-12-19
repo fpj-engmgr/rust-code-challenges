@@ -1,0 +1,1 @@
+/Users/fpj/Development/rust/rust-code-challenges/minigrep/target/debug/minigrep: /Users/fpj/Development/rust/rust-code-challenges/minigrep/src/lib.rs /Users/fpj/Development/rust/rust-code-challenges/minigrep/src/main.rs

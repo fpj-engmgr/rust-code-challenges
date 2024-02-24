@@ -41,16 +41,6 @@ fn main() {
     print_morse_code(&greeting);
 }
 
-
-impl std::fmt::Display for Pulse {
-    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        match self {
-            Self::Short => write!(f, "."), 
-            Self::Long => write!(f, "_"),
-        }
-    }
-}
-
 #[test]
 fn hello_world() {
     use Pulse::*;
